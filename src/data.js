@@ -61,7 +61,26 @@ function chillHop() {
             id: uuidv4(),
             active: false,
         },
-        //ADD MORE HERE
+        {
+            name: "Mirage",
+            cover:
+                "https://chillhop.com/wp-content/uploads/2020/09/09fb436604242df99f84b9f359acb046e40d2e9e-1024x1024.jpg",
+            artist: " Nymano, j'san ",
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=10136",
+            color: ["#206050", "#2a453bf"],
+            id: uuidv4(),
+            active: false,
+        },
+        {
+            name: "Coastal Town",
+            cover:
+                "https://chillhop.com/wp-content/uploads/2020/07/888ce90dd44b73f819413e20d744bc00e6f9adac-1024x1024.jpg",
+            artist: " Kupla ",
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=8851",
+            color: ["#206050", "#2a453bf"],
+            id: uuidv4(),
+            active: false,
+        },
     ];
 }
 
