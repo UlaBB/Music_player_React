@@ -4,6 +4,5 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: red;
-}
+@import "./player";
+@import "./song"
