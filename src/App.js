@@ -11,6 +11,7 @@ function App() {
 
   //State
   const [songs, setSongs] = useState(data());
+
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [songInfo, setSongInfo] = useState({
@@ -41,6 +42,7 @@ function App() {
         songs={songs}
         setCurrentSong={setCurrentSong}
         isPlaying={isPlaying}
+        setSongs={setSongs}
       />
       <audio
         onLoadedMetadata={timeUpdateHandler}
